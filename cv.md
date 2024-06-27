@@ -6,13 +6,12 @@ ___
 * **email**: xenyasitnikova@yandex.ru
 * **phone**: +7 915 154 05 81
 * **location**: Russia, Moscow
-* [Leetcode](https://leetcode.com/u/redvoiceful/) 
 
 ___
 
 ## About me:
 
-I'm interested with clear processes and appreciatethe opportunity to influence the process of development. Now I have 2+ year experience as Frontend developer in commertical company. I also interested in backend development and have a little bit experience. In my spare time, I do HEMA (historical fencing) and roleplay games.
+I'm interested with clear processes and appreciate opportunity to influence the process of development. Now I have 2+ year experience as Frontend developer in commertical company. I also interested in backend development and have a little bit experience. In my spare time, I do HEMA (historical fencing) and roleplay games.
 
 ___
 
@@ -47,7 +46,7 @@ function filter_list(l) {
 * 2021 - 2024 - Frontend Developer in IPchain (platform for protecting intellectual propetry). Project for buying/saling IP. 
 
 
-# Courses:
+## Courses:
 
 * 2021 - loftSchool - Web-developer
 * 2021 - LoftSchool - intermediate javaScript
