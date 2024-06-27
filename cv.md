@@ -31,22 +31,14 @@ ___
 
 ## Code Example:
 
-Sometimes I'm trying to solve problems in LeetCode. 
+Example of my code
 
-**Running Sum of 1d Array**. *Given an array nums. We define a running sum of an array as runningSum[i] = sum(nums[0]…nums[i])*.
-
-Return the running sum of nums.*
+**List Filtering**. *Create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.*
 
 ```
-function runningSum(nums) {
-    let sum = 0
-    let summOfArray = [];
-    nums.forEach((item) => {
-        sum += item
-        summOfArray.push(sum)
-    })
-    return summOfArray
-};
+function filter_list(l) {
+  return l.filter((item) => typeof item !== "string")
+}
 ```
 
 ## Job experience:
