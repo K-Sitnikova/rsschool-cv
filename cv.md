@@ -7,6 +7,7 @@ ___
 * **phone**: +7 915 154 05 81
 * **location**: Russia, Moscow
 * [Leetcode](https://leetcode.com/u/redvoiceful/) 
+
 ___
 
 ## About me:
