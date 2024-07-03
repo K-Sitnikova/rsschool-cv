@@ -3,94 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Ksenia Sitnikova CV</title>
 </head>
 <body>
-    <header>
-        <img src="" alt="">
-        <h1>Sitnikova Ksenia</h1>
-        <p>Frontend Developer</p>
-    </header>
-    <main>
-        <section>
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML/CSS</li>
-                <li>JavaScript</li>
-                <li>Vue(2/3) / Nuxt</li>
-                <li>Pinia</li>
-                <li>Vite</li>
-                <li>PHP</li>
-                <li>MySql</li>
-                <li>Git</li>
-                <li>Figma</li>
-            </ul>
-        </section>
-        <section>
-            <h2>languages</h2>
-            <ul>
-                <li>Russian (Native)</li>
-                <li>English (B2)</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Contacts</h2>
-            <ul>
-                <li>
-                    <a href="https://t.me/blackberry_fox">telegram</a>
-                </li>
-                <li>
-                    <a href="mailto:xenyasitnikova@yandex.ru">email</a>
-                </li>
-            </ul>
-        </section>
-    </main>
-    <aside>
-        <section>
-            <h2>About me</h2>
-            <p>I’m interested with clear processes and appreciate opportunity to influence the process of development. Now I have 2+ year experience as Frontend developer in commertical company. I also interested in backend development and have a little bit experience. I do HEMA (historical fencing) and roleplay games in my spare time.</p>
-        </section>
-        <section>
-            <h2>Education and Courses</h2>
-            <ul>
-                <li>2022 - ToCode - Vue.js for beginners</li>
-                <li>2021 - LoftSchool - intermediate javaScript</li>
-                <li>2021 - loftSchool - Web-developer</li>
-                <li>2012-2015 - Moscow Pedagogical State University (MPGU), Faculty of pedagogy and psychology</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Code example</h2>
-            <p>List Filtering. Create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.</p>
-            <pre>
-                function filter_list(l) {
-                    return l.filter((item) => typeof item !== "string")
-                  }
-            </pre>
-        </section>
-        <section>
-            <h2>Experience</h2>
-            <ul>
-                <li>2021 - 2024 - Frontend Developer in IPchain (platform for protecting intellectual propetry). Project for buying/saling IP.</li>
-            </ul>
-        </section>
-    </aside>
-    <footer>
-        <nav>
-            <ul>
-                <li>2024</li>
-                <li>
-                    <a href="https://github.com/K-Sitnikova">
-                        <img src="" alt="git">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://rs.school/courses/javascript-ru">
-                        <img src="" alt="javascript-ru">
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </footer>
+    <div class="container">
+        <div class="container__about">
+            <div class="container__about--left">
+                <header class="header">
+                    <img class="header__photo" src="photo.jpg" alt="Sitnikova Ksenia">
+                    <h1 class="header__title">Sitnikova Ksenia</h1>
+                    <p class="header__desc">Frontend Developer</p>
+                </header>
+                <main class="main">
+                    <section class="skills">
+                        <h2 class="skills__title">Skills</h2>
+                        <ul class="skills__items">
+                            <li class="skills__items-item">HTML/CSS</li>
+                            <li class="skills__items-item">JavaScript</li>
+                            <li class="skills__items-item">Vue(2/3) / Nuxt</li>
+                            <li class="skills__items-item">Pinia</li>
+                            <li class="skills__items-item">Vite</li>
+                            <li class="skills__items-item">PHP</li>
+                            <li class="skills__items-item">MySql</li>
+                            <li class="skills__items-item">Git</li>
+                            <li class="skills__items-item">Figma</li>
+                        </ul>
+                    </section>
+                    <section class="languages">
+                        <h2 class="languages__title">languages</h2>
+                        <ul class="languages__items">
+                            <li class="languages__items-item">Russian (Native)</li>
+                            <li class="languages__items-item">English (B2)</li>
+                        </ul>
+                    </section>
+                    <section class="contacts">
+                        <h2 class="contacts__title">Contacts</h2>
+                        <ul class="contacts__items">
+                            <li class="contacts__items-item">
+                                <a class="contacts__items-link" href="https://t.me/blackberry_fox">telegram</a>
+                            </li>
+                            <li class="contacts__items-item">
+                                <a class="contacts__items-link" href="mailto:xenyasitnikova@yandex.ru">email</a>
+                            </li>
+                        </ul>
+                    </section>
+                </main>
+            </div>
+            <div class="container__about--right">
+                <aside class="aside">
+                    <section class="about">
+                        <h2 class="about__title">About me</h2>
+                        <p class="about__desc">I’m interested with clear processes and appreciate opportunity to influence the process of development. Now I have 2+ year experience as Frontend developer in commertical company. I also interested in backend development and have a little bit experience. I do HEMA (historical fencing) and roleplay games in my spare time.</p>
+                    </section>
+                    <section class="education">
+                        <h2 class="education__title">Education and Courses</h2>
+                        <ul class="education__items">
+                            <li class="education__items-item">2022 - ToCode - Vue.js for beginners</li>
+                            <li class="education__items-item">2021 - LoftSchool - intermediate javaScript</li>
+                            <li class="education__items-item">2021 - loftSchool - Web-developer</li>
+                            <li class="education__items-item">2012-2015 - Moscow Pedagogical State University (MPGU), Faculty of pedagogy and psychology</li>
+                        </ul>
+                    </section>
+                    <section class="example">
+                        <h2 class="example__title">Code example</h2>
+                        <p class="example__desc">List Filtering. Create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.</p>
+                        <pre class="example__code"><code>
+                            function filter_list(l) {
+                                return l.filter((item) => typeof item !== "string")
+                            }
+                        </code></pre>
+                    </section>
+                    <section class="experience">
+                        <h2 class="experience__title">Experience and Projects</h2>
+                        <ul class="experience__items">
+                            <li class="experience__items-item">2021 - 2024 Frontend developer in Ipchain company</li>
+                            <li class="experience__items-item">
+                                <a class="experience__items-link" target="_blank" href="https://github.com/K-Sitnikova/the_Daily_Prophet">The Daily Prophet</a>
+                            </li>
+                            <li class="experience__items-item">
+                                <a class="experience__items-link" target="_blank" href="https://github.com/K-Sitnikova/horror_story">Interractive game</a>
+                            </li>
+                        </ul>
+                    </section>
+                </aside>
+            </div>
+        </div>
+        <footer class="footer">
+            <nav class="footer__nav">
+                <ul class="footer__items">
+                    <li class="footer__items-item">2024</li>
+                    <li class="footer__items-item">
+                        <a class="footer__items-link" target="_blank" href="https://github.com/K-Sitnikova">
+                            <img class="footer__items-image" src="git.svg" alt="git">
+                        </a>
+                    </li>
+                    <li class="footer__items-item">
+                        <a class="footer__items-link" target="_blank" href="https://rs.school/courses/javascript-ru">
+                            <img class="footer__items-image" src="icon.svg" alt="javascript-ru">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
 </body>
 </html>
