@@ -73,7 +73,9 @@
                         <p class="example__desc">List Filtering. Create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.</p>
                         <pre class="example__code"><code>
                             function filter_list(l) {
-                                return l.filter((item) =&gt typeof item !== "string")
+                                return l.filter(function(item) {
+                                    return typeof item !== "string"
+                                })
                             }
                         </code></pre>
                     </section>
